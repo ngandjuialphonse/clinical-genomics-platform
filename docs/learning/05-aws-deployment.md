@@ -30,6 +30,3 @@ We are using **AWS Fargate**, a serverless compute engine for containers. This m
 3.  ECS pulls the images from ECR and runs them as containers.
 4.  An Application Load Balancer (ALB) is used to route traffic to our API and dashboard.
 
-## Interview Talking Point
-
-> "I used Terraform to define and manage the entire cloud infrastructure as code, ensuring a reproducible and automated deployment process. I chose AWS Fargate for our container orchestration to create a serverless, scalable, and low-maintenance environment. The infrastructure is modularized for reusability and is deployed as part of our automated CI/CD pipeline."
