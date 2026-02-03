@@ -29,6 +29,3 @@ The dashboard is a **consumer** of our FastAPI backend. It uses the `requests` l
 -   **Interactive Filtering:** Users can filter the data using sidebar widgets.
 -   **Data Visualization:** We use Plotly Express to create interactive charts and graphs.
 
-## Interview Talking Point
-
-> "I built the user-facing dashboard with Streamlit, which allowed me to rapidly develop an interactive frontend in pure Python. The dashboard communicates with the FastAPI backend to fetch and display real-time data on sample status and QC metrics. I used caching to ensure a responsive user experience and Plotly for creating interactive data visualizations."
