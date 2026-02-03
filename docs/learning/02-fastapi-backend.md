@@ -28,7 +28,3 @@ Our API is structured into several layers to ensure separation of concerns:
 -   `GET /samples/`: Get a list of samples (with filtering and pagination).
 -   `GET /samples/{sample_id}`: Get a single sample with its details.
 -   `POST /qc_metrics/`: Ingest QC metrics from the pipeline.
-
-## Interview Talking Point
-
-> "I built the backend using FastAPI, leveraging its automatic data validation and documentation features. I designed a service-oriented architecture to separate the business logic from the API routing, which makes the code more maintainable and testable. The API provides endpoints for all CRUD operations and is designed to be consumed by both the Streamlit dashboard and other programmatic clients."
