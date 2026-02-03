@@ -27,7 +27,3 @@ We use **SQLAlchemy**, a Python Object-Relational Mapper (ORM), to interact with
 -   **Productivity:** It's faster to write Python than complex SQL.
 -   **Database Agnostic:** We could switch from PostgreSQL to MySQL with minimal code changes.
 -   **Security:** It helps prevent SQL injection attacks.
-
-## Interview Talking Point
-
-> "I designed the database schema to separate the 'heavy' genomic data, which lives in S3, from the 'smart' metadata, which is indexed in PostgreSQL. This allows for fast querying of QC metrics and provides a complete, auditable trail for clinical compliance, using SQLAlchemy as the ORM to ensure maintainable and secure database interactions."
