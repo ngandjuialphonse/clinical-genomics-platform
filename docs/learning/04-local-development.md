@@ -24,6 +24,3 @@ Our Docker Compose file defines three services:
 -   **`environment`**: Used to pass environment variables (like the `DATABASE_URL`) to the containers.
 -   **`volumes`**: Mounts local directories into the containers for live code reloading.
 
-## Interview Talking Point
-
-> "I created a Docker Compose setup to provide a one-command local development environment. This orchestrates the database, backend, and frontend services, and uses volumes for hot-reloading to enable rapid development. This ensures a consistent and reproducible environment for all developers on the team."
